@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ahuja *.css
+recursive-include ahuja *.csv
+recursive-include ahuja *.html
+recursive-include ahuja *.ico
+recursive-include ahuja *.js
+recursive-include ahuja *.json
+recursive-include ahuja *.md
+recursive-include ahuja *.png
+recursive-include ahuja *.py
+recursive-include ahuja *.svg
+recursive-include ahuja *.txt
+recursive-exclude ahuja *.pyc
